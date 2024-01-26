@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Creative Calendar</title>
+</head>
+
+<body bgcolor="#503C3C">
+
+<!-- <header>
+  <img src="img/title.png" alt="title" style="width: 800px;height: 250px;display: block;margin: auto;filter: brightness(1.3);border: 0 ;">
+</header> -->
+
+<!-- <div style="display: flex; justify-content: center;">  
+  <a href="#jan" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">JANUARY</a>
+  <a href="#feb" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">FEBRUARY</a>
+  <a href="#mar" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">MARCH</a>
+  <a href="#apr" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">APRIL</a>
+  <a href="#may" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">MAY</a>
+  <a href="#june" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">JUNE</a>
+  <a href="#july" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">JULY</a>
+  <a href="#august" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">AUGUST</a>
+  <a href="#sep" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">SEPTEMBER</a>
+  <a href="#oct" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">OCTOVER</a>
+  <a href="#nov" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">NOVEMBER</a>
+  <a href="#dec" style="color: #FFF8E3; margin-left: 50px;font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-#FFF8E3; font-weight:bold;">DECEMBER</a> 
+</div> -->
+
+<br>
+<br>
+<br>
+<br>
+
+  <style>
+    a{
+
+    }
+    h1{
+      color: blanchedalmond;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      font-size: 100px;
+    }
+    th{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+    td{
+      text-align: center;
+      font-size: 12px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    table{
+    border-spacing: 10px;
+    }
+    caption{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    img{
+      margin-top: 8px;
+      margin-left: 10px;
+      height: 400px;
+      width: 280px;
+      border-radius: 50px;
+      border: 1px solid black;
+    }
+  </style>
+
+   
+  <div style="display: flex;justify-content: center;">
+    <div style="background-color: #E0CCBE;border: 2px solid black;margin: 10px; border-radius: 50px;">
+      <div>
+        <img src="img/jan.jpg" alt="jan">
+      </div>
+      <div style="background-color:#EEEDEB;border: 3px solid rgb(174, 84, 174);border-radius:50px;margin: 15px 15px;height: 250px;">      
+        <table style="width: 20%; margin: 10px 40px;">
+          <caption style="color: rgb(174, 84, 174);">JANUARY</caption>
+          <tr>
+            <th style="color: rgb(174, 84, 174);">S</th>
+            <th style="color: rgb(174, 84, 174);">M</th>
+            <th style="color: rgb(174, 84, 174);">T</th>
+            <th style="color: rgb(174, 84, 174);">W</th>
+            <th style="color: rgb(174, 84, 174);">T</th>
+            <th style="color: rgb(174, 84, 174);">F</th>
+            <th style="color: rgb(174, 84, 174);">S</th>
+          </tr>
+          <tr>
+            <td style="color: red;"></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td style="color: red;">7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+          </tr>
+          <tr>
+            <td style="color: red;">14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td style="color: red;">21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+          </tr>
+          <tr>
+            <td style="color: red;">28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="border-radius:50px;border: 2px solid black;margin: 10px;background-color: #E0CCBE">
+      <div>
+        <img src="img/feb.jpg" alt="jan">
+      </div>
+      <div style="background-color: #EEEDEB; border: 3px solid lightblue;border-radius:50px;margin: 15px 15px;height: 250px;">
+    <table style="width: 20%; margin: 10px 40px;">
+      <tr>
+      <caption style="color: lightblue;">FEBRUARY</caption>
+    <th style="color: lightblue;">S</th>
+    <th style="color: lightblue;">M</th>
+    <th style="color: lightblue;">T</th>
+    <th style="color: lightblue;">W</th>
+    <th style="color: lightblue;">T</th>
+    <th style="color: lightblue;">F</th>
+    <th style="color: lightblue;">S</th>
+  </tr>
+  <tr>
+    <td style="color: red;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td style="color: red;">4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td style="color: red;">11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td style="color: red;">18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td style="color: red;">25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+</div>
+
+<br>
+
+<div style="border-radius: 50px;border: 1px solid;margin: 10px;background-color: #E0CCBE">
+  <div>
+    <img src="img/mar.jpg" alt="jan">
+  </div>
+  <div style="background-color: #EEEDEB; border: 3px solid plum;border-radius:50px;margin: 15px 15px;height: 250px;">
+<table style="width: 20%; margin: 10px 40px;">
+  <tr>
+    <caption style="color: plum;">MARCH</caption>
+    <th style="color: plum;">S</th>
+    <th style="color: plum;">M</th>
+    <th style="color: plum;">T</th>
+    <th style="color: plum;">W</th>
+    <th style="color: plum;">T</th>
+    <th style="color: plum;">F</th>
+    <th style="color: plum;">S</th>
+  </tr>
+  <tr>
+    <td style="color: red;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td style="color: red;">3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td style="color: red;">10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+  </tr>
+  <tr>
+    <td style="color: red;">17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td style="color: red;">24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td style="color: red;">31</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
+</div>
+
+<br>
+
+<div style="border: 1px solid;margin: 10px;background-color: #E0CCBE;border-radius: 50px;">
+  <div>
+    <img src="img/apr.jpg" alt="jan">
+  </div>
+  <div style="background-color: #EEEDEB;border: 3px solid rgb(135, 245, 255);border-radius:50px;margin: 15px 15px;height: 250px;">
+<table style="width: 20%; margin: 10px 40px;">
+  <caption style="color: rgb(135, 245, 255)">APRIL</caption>
+  <tr>
+    <th  style="color: rgb(135, 245, 255)">S</th>
+    <th  style="color: rgb(135, 245, 255)">M</th>
+    <th  style="color: rgb(135, 245, 255)">T</th>
+    <th  style="color: rgb(135, 245, 255)">W</th>
+    <th  style="color: rgb(135, 245, 255)">T</th>
+    <th  style="color: rgb(135, 245, 255)">F</th>
+    <th  style="color: rgb(135, 245, 255)">S</th>
+  </tr>
+  <tr>
+    <td style="color: red;"></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td style="color: red;">7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td style="color: red;">14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td style="color: red;">21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td style="color: red;">28</td>
+    <td>29</td>
+    <td>30</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</th>
+</table>
+</div>
+</div>
+</div>
+
+<br>
+
+<div style="display: flex;justify-content: center;">
+  <div id="may" style="border: 1px solid;margin: 10px; border-radius: 50px;background-color: #E0CCBE;">
+    <div>
+      <img src="img/may.jpg" alt="jan">
+    </div>
+    <div style="background-color: #EEEDEB;border: 3px solid rgb(227, 141, 109);border-radius:50px;margin: 15px 15px;height: 250px;">
+  <table style="width: 20%; margin: 10px 40px;">
+    <tr>
+      <caption style="color: rgb(227, 141, 109);">MAY</caption>
+      <th style="color: rgb(227, 141, 109);">S</th>
+      <th style="color: rgb(227, 141, 109);">M</th>
+      <th style="color: rgb(227, 141, 109);">T</th>
+      <th style="color: rgb(227, 141, 109);">W</th>
+      <th style="color: rgb(227, 141, 109);">T</th>
+      <th style="color: rgb(227, 141, 109);">F</th>
+      <th style="color: rgb(227, 141, 109);">S</th>
+    </tr>
+    <tr>
+      <td style="color: red;"></td>
+      <td></td>
+      <td></td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td style="color: red;">5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td style="color: red;">12</td>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td style="color: red;">19</td>
+      <td>20</td>
+      <td>21</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td style="color: red;">26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+      <td></td>
+    </tr>
+  </th>
+</table>
+</div>
+</div>
+
+<br>
+
+ <div style="border: 1px solid;margin: 10px;background-color: #E0CCBE;border-radius: 50px;">
+    <div>
+      <img src="img/jun.jpg" alt="jan">
+    </div>
+    <div style="background-color: #EEEDEB;border: 3px solid lightblue;border-radius:50px;margin: 15px 15px;height: 250px;">
+<table style="width: 20%; margin: 10px 40px;">
+  <tr>
+    <caption style="color: lightblue;">JUNE</caption>
+    <th style="color: lightblue;">S</th>
+    <th style="color: lightblue;">M</th>
+    <th style="color: lightblue;">T</th>
+    <th style="color: lightblue;">W</th>
+    <th style="color: lightblue;">T</th>
+    <th style="color: lightblue;">F</th>
+    <th style="color: lightblue;">S</th>
+  </tr>
+  <tr>
+    <td style="color: red;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td style="color: red;">2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td style="color: red;">9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+  </tr>
+  <tr>
+    <td style="color: red;">16</td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td style="color: red;">23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+  </tr>
+  <tr>
+    <td style="color: red;">30</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</th>
+</table>
+</div>
+</div>
+
+<br>
+
+<div style="border: 1px solid;margin: 10px;background-color: #E0CCBE;border-radius: 50px;">
+  <div>
+    <img src="img/jul.jpg" alt="jan">
+  </div>
+  <div style="background-color: #EEEDEB;border: 3px solid orange;border-radius:50px;margin: 15px 15px;height: 250px;">
+<table style="width: 20%; margin: 10px 40px;">
+  <tr>
+    <caption style="color: orange;">JULY</caption>
+    <th style="color: orange;">S</th>
+    <th style="color: orange;">M</th>
+    <th style="color: orange;">T</th>
+    <th style="color: orange;">W</th>
+    <th style="color: orange;">T</th>
+    <th style="color: orange;">F</th>
+    <th style="color: orange;">S</th>
+  </tr>
+  <tr>
+    <td style="color: red;"></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td style="color: red;">7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td style="color: red;">14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td style="color: red;">21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td style="color: red;">28</td>
+    <td>29</td>
+    <td>30</td>
+    <td>31</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</th>
+</table>
+</div>
+</div>
+
+<br>
+
+<div style="border: 1px solid;margin: 10px;background-color: #E0CCBE;border-radius: 50px;">
+  <div>
+    <img src="img/aug.jpg" alt="jan">
+  </div>
+  <div style="background-color: #EEEDEB;border: 3px solid rgb(131, 232, 247);border-radius:50px;margin: 15px 15px;height: 250px;">
+<table style="width: 20%; margin: 10px 40px;">
+  <tr>
+    <caption style="color: rgb(131, 232, 247);">AUGUST</caption>
+    <th style="color: rgb(131, 232, 247)">S</th>
+    <th style="color: rgb(131, 232, 247)">M</th>
+    <th style="color: rgb(131, 232, 247)">T</th>
+    <th style="color: rgb(131, 232, 247)">W</th>
+    <th style="color: rgb(131, 232, 247)">T</th>
+    <th style="color: rgb(131, 232, 247)">F</th>
+    <th style="color: rgb(131, 232, 247)">S</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td style="color: red;">4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td style="color: red;">11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td style="color: red;">18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td style="color: red;">25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+    <td>31</td>
+  </tr>
+</th>
+</table>
+</div>
+</div>
+</div>
+
+<br>
+
+<div style="display: flex;justify-content: center">
+  <div style="border: 1px solid;margin: 10px; background-color: #E0CCBE; border-radius: 50px;">
+    <div>
+      <img src="img/sep.jpg" alt="jan">
+    </div>
+    <div style="background-color: #EEEDEB;border: 3px solid rgb(178, 120, 203);border-radius:50px;margin: 15px 15px;height: 250px;">
+  <table style="width: 20%; margin: 10px 40px;">
+    <tr>
+      <caption style="color: rgb(178, 120, 203);">SEPTEMBER</caption>
+      <th style="color: rgb(178, 120, 203);">S</th>
+      <th style="color: rgb(178, 120, 203);">M</th>
+      <th style="color: rgb(178, 120, 203);">T</th>
+      <th style="color: rgb(178, 120, 203);">W</th>
+      <th style="color: rgb(178, 120, 203);">T</th>
+      <th style="color: rgb(178, 120, 203);">F</th>
+      <th style="color: rgb(178, 120, 203);">S</th>
+    </tr>
+    <tr>
+      <td style="color: red;">1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td style="color: red;">8</td>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td style="color: red;">15</td>
+      <td>16</td>
+      <td>17</td>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td style="color: red;">22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td style="color: red;">29</td>
+      <td>30</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </th>
+</table>
+</div>
+</div>
+
+<div style="border: 1px solid;margin: 10px;background-color: #E0CCBE;border-radius: 50px;">
+  <div>
+    <img src="img/oct.jpg" alt="jan">
+  </div>
+  <div style="background-color: #EEEDEB;border: 3px solid rgb(98, 193, 227);border-radius:50px;margin: 15px 15px;height: 250px;">
+<table style="width: 20%; margin: 10px 40px;">
+  <tr>
+    <caption style="color: rgb(98, 193, 227);">OCTOBER</caption>
+    <th style="color: rgb(98, 193, 227);">S</th>
+    <th style="color: rgb(98, 193, 227);">M</th>
+    <th style="color: rgb(98, 193, 227);">T</th>
+    <th style="color: rgb(98, 193, 227);">W</th>
+    <th style="color: rgb(98, 193, 227);">T</th>
+    <th style="color: rgb(98, 193, 227);">F</th>
+    <th style="color: rgb(98, 193, 227);">S</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td style="color: red;">6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td style="color: red;">13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td style="color: red;">20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td style="color: red;">27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+    <td>31</td>
+    <td></td>
+    <td></td>
+  </tr>
+</th>
+</table>
+</div>
+</div>
+
+<br>
+
+<div style="border: 1px solid;margin: 10px;background-color: #E0CCBE; border-radius: 50px;">
+  <div>
+    <img src="img/nov.jpg" alt="jan">
+  </div>
+  <div style="background-color: #EEEDEB;border: 3px solid rgb(134, 235, 249);border-radius:50px;margin: 15px 15px;height: 250px;">
+<table style="width: 20%; margin: 10px 40px;">
+  <tr>
+    <caption style="color: rgb(134, 235, 249);">NOVEMBER</caption>
+    <th style="color: rgb(134, 235, 249);">S</th>
+    <th style="color: rgb(134, 235, 249);">M</th>
+    <th style="color: rgb(134, 235, 249);">T</th>
+    <th style="color: rgb(134, 235, 249);">W</th>
+    <th style="color: rgb(134, 235, 249);">T</th>
+    <th style="color: rgb(134, 235, 249);">F</th>
+    <th style="color: rgb(134, 235, 249);">S</th>
+  </tr>
+  <tr>
+    <td style="color: red;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td style="color: red;">3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td style="color: red;">10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+  </tr>
+  <tr>
+    <td style="color: red;">17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td style="color: red;">24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+  </tr>
+</th>
+</table>
+</div>
+</div>
+
+<br>
+
+<div style="border: 1px solid;margin: 10px;background-color: #E0CCBE;border-radius: 50px;">
+  <div>
+    <img src="img/dec.jpg" alt="jan">
+  </div>
+  <div style="background-color: #EEEDEB;border: 3px solid rgb(239, 117, 117);border-radius:50px;margin: 15px 15px;height: 250px;">
+<table style="width: 20%; margin: 10px 40px;">
+  <tr>
+    <caption style="color: rgb(239, 117, 117)">DECEMBER</caption>
+    <th style="color: rgb(239, 117, 117);">S</th>
+    <th style="color: rgb(239, 117, 117);">M</th>
+    <th style="color: rgb(239, 117, 117);">T</th>
+    <th style="color: rgb(239, 117, 117);">W</th>
+    <th style="color: rgb(239, 117, 117);">T</th>
+    <th style="color: rgb(239, 117, 117);">F</th>
+    <th style="color: rgb(239, 117, 117);">S</th>
+  </tr>
+  <tr>
+    <td style="color: red;">1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td style="color: red;">8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td style="color: red;">15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td style="color: red;">22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td style="color: red;">29</td>
+    <td>30</td>
+    <td>31</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</th>
+</table>
+
+<br>
+</div>
+</div>
+</div>
+
+<!-- <div id="jan" style="display:flex; justify-content: center">
+  <img src="img/1.png" style="height: 900px; width: 450px; border: 0px;" alt="1">
+</div> -->
+
+
+</body>
+</html>
